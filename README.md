@@ -5,6 +5,7 @@ Considere uma senha sendo válida quando a mesma possuir as seguintes definiçõ
 - Ao menos 1 letra minúscula
 - Ao menos 1 letra maiúscula
 - Ao menos 1 caractere especial
+- Não possuir caracteres repetidos
 
 Exemplo:  
 ```
@@ -12,7 +13,8 @@ IsValid("") -> false
 IsValid("aa") -> false  
 IsValid("ab") -> false  
 IsValid("AAAbbbCc") -> false  
-IsValid("AbTp9!foo") -> true  
+IsValid("AbTp9!foo") -> false  
+IsValid("AbTp9!fok") -> true
 ```
 
 ## Problema
@@ -21,18 +23,20 @@ Construa uma aplicação que exponha uma api web que valide se uma senha é vál
 Input: Uma senha (string).  
 Output: Um boolean indicando se a senha é válida.
 
-Você pode fazer na linguagem de programação que considera ter mais conhecimento.
+Embora nossas aplicações sejam escritas em Kotlin e C# (.net core), você não precisa escrever sua solução usando elas. Use a linguagem de programação que considera ter mais conhecimento.
 
 # Pontos que daremos maior atenção
 Queremos que você escreva essa solução pensando que ao nos enviar ela estará "pronta para produção". Alguns itens que serão avaliados são:
 
 - Testes de unidade / integração
-- Abstração, acoplamento e coesão
+- Abstração, acoplamento, extensibilidade e coesão
 - Design de API
 - Clean Code
 - SOLID
 
 # Para nos enviar a solução
-Sua solução deve possuir um README com instruções básicas de como executá-la.
+Nos envie o link de um repo público com a sua solução.
 
-Fique à vontade para explicar no readme qualquer decisão técnica que tenha tomado e considere importante.
+O repo deve possuir um README com instruções básicas de como executá-la.
+
+Explique no README as decisões técnicas do design da aplicação. 
