@@ -15,10 +15,11 @@ IsValid("ab") -> false
 IsValid("AAAbbbCc") -> false  
 IsValid("AbTp9!foo") -> false  
 IsValid("AbTp9!foA") -> false
+IsValid("AbTp9 fok") -> false
 IsValid("AbTp9!fok") -> true
 ```
 
-> **_Nota:_**  Espaços em branco não devem ser considerados como caracteres especiais.
+> **_Nota:_**  Espaços em branco não devem ser considerados como caracteres válidos.
 
 ## Problema
 Construa uma aplicação que exponha uma api web que valide se uma senha é válida.
@@ -36,15 +37,18 @@ Alguns itens que serão avaliados são:
 - Design de API
 - Clean Code
 - SOLID
-- Documentação no README da solução
+- Documentação da solução no *README* 
 
-# Para nos enviar a solução
+## Sobre a documentação
+Nesta etapa do processo seletivo queremos entender as decisões por trás do código, portanto é fundamental que o *README* tenha algumas informações referentes a sua solução.
+
+Algumas dicas do que esperamos ver são:
+- Instruções básicas de como executar o projeto;
+- Detalhes sobre a sua solução, gostariamos de saber qual foi seu racional nas decisões;
+- Caso algo não esteja claro e você precisou assumir alguma premissa, quais foram e o que te motivou a tomar essas decisões.
+
+
+# Como esperamos receber sua solução
 Você tem um tempo limite de 10 dias para o envio da sua solução a partir da data que você recebeu o desafio. Esta etapa é eliminatória, e por isso esperamos que o código reflita essa importância.
 
 Nos envie o link de um repo público com a sua solução.
-
-O repo deve possuir um README com instruções básicas de como executá-la. 
-
-Caso você assuma alguma premissa na sua solução adicione ela no README.
-
-Não esqueça de nos contar um pouco sobre sua solução no README, gostariamos de saber qual foi seu racional nas suas decisões para a solução e se houveram premissas.
