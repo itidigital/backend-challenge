@@ -61,6 +61,8 @@ Algumas dicas do que esperamos ver são:
 
 ## Como esperamos receber sua solução
 
-Você tem um tempo limite de 10 dias para o envio da sua solução a partir da data que você recebeu o desafio. Esta etapa é eliminatória, e por isso esperamos que o código reflita essa importância.
+Com base no histórico, a gente acredita que 10 dias corridos é um tempo bom para se organizar e resolver o exercício. Teve algum imprevisto e precisa de mais tempo? Nos dê um toque por e-mail, a gente entende.
+
+Esta etapa é eliminatória, e por isso esperamos que o código reflita essa importância.
 
 Nos envie o link de um repo público com a sua solução.
